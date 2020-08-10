@@ -9,6 +9,7 @@ local MP = minetest.get_modpath("monitoring_technic")
 
 -- globals
 monitoring.wrap_global({"technic", "handle_machine_pipeworks"}, "technic_handle_machine_pipeworks")
+monitoring.wrap_global({"technic", "get_recipe"}, "technic_get_recipe")
 
 -- abm stuff
 dofile(MP.."/abm.lua")
