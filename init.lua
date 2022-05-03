@@ -18,7 +18,7 @@ dofile(MP.."/abm.lua")
 dofile(MP.."/quarry.lua")
 
 -- switching station
-dofile(MP.."/quarry.lua")
+dofile(MP.."/switch.lua")
 
 if minetest.settings:get_bool("monitoring.technic.verbose") then
   -- intercept *all* machines (may be slow!)
